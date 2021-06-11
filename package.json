@@ -1,0 +1,25 @@
+{
+  "name": "chat-websocket",
+  "version": "1.0.0",
+  "description": "Un chat pour tester les websockets",
+  "main": "src/index.js",
+  "dependencies": {
+    "ws": "^7.4.6",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "client1": "node src/client1.js",
+    "srv": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosquinH/Chat-Websocket.git"
+  },
+  "author": "JosquinH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosquinH/Chat-Websocket/issues"
+  },
+  "homepage": "https://github.com/JosquinH/Chat-Websocket#readme"
+}
