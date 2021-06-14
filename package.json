@@ -10,7 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "client1": "node src/client1.js",
-    "srv": "node src/server.js"
+    "client2": "node src/client2.js",
+    "server": "node src/server.js"
   },
   "repository": {
     "type": "git",
