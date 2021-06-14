@@ -12,7 +12,7 @@ ws.on('open',  () => {
 
 ws.on('message', (data) => {
   const jsonData = JSON.parse(data)
-    console.log('received from %s: %s', jsonData.sender, jsonData.message)
+    console.log('received from %s : %s', jsonData.sender, jsonData.message)
 })
 
 ws.on('error',  (error) => {

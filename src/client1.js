@@ -7,13 +7,12 @@ const ws = new WebSocket('ws://localhost:8080')
 
 ws.on('open',  () => {
   const data = JSON.stringify({sender: 'client1', recipient: 'SERVER', status: 'FIRST_MESSAGE', message: 'Client 1 Connected'})
-
   ws.send(data)
 })
 
 ws.on('message', (data) => {
   const jsonData = JSON.parse(data)
-    console.log('received from %s: %s', jsonData.sender, jsonData.message)
+  console.log('received from %s : %s', jsonData.sender, jsonData.message)
 })
 
 
