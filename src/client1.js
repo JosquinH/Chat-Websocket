@@ -6,7 +6,7 @@ const ws = new WebSocket('ws://localhost:8080')
 
 
 ws.on('open',  () => {
-  const data = JSON.stringify({sender: 'client1', recipient: 'SERVER', status: 'FIRST_MESSAGE', message: 'Client 1 Connected'})
+  const data = JSON.stringify({sender: 'Client_1', recipient: 'SERVER', status: 'FIRST_MESSAGE', message: 'Client 1 Connected'})
   ws.send(data)
 })
 
@@ -30,7 +30,7 @@ const rl = readline.createInterface({
 
 rl.on('line', (line) => {
     if (ws.readyState === 1) {
-      const data = JSON.stringify({sender: 'client1', recipient: 'client2', status: 'MESSAGE', message: line})
+      const data = JSON.stringify({sender: 'Client_1', recipient: 'Client_2', status: 'MESSAGE', message: line})
       ws.send(data)
     }
 })
