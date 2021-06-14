@@ -1,5 +1,7 @@
 ## Chat-Websocket
 
+A simple Chat to use the ws api.
+
 # How To Use
 
 1. In your project install yarn and all required package
