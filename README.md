@@ -30,4 +30,4 @@ yarn client1
 yarn client2
 ```
 
-6. You can now tchat between the two client in writig in one client terminal
+6. You can now chat between the two client in writing in one client terminal
