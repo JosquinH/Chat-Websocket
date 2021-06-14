@@ -10,7 +10,7 @@ A simple Chat to use the ws api.
 npm add yarn
 yarn
 ````
-2. Open three terminal at the root of the project
+2. Open three terminal at the root of your project
 
 3. In the first terminal, start the websocket server with  the command
 
@@ -30,4 +30,4 @@ yarn client1
 yarn client2
 ```
 
-6. You can now tchat between the two client by write in one client terminal
+6. You can now tchat between the two client in writig in one client terminal
